@@ -21,6 +21,7 @@ object versions {
     const val blueprint = "1.9.0"
     const val flowbinding = "0.12.0"
     const val flowRedux = "0.3.0"
+    const val workflow = "1.0.0-alpha.1"
 
     object androidx {
         const val core = "1.5.0-alpha01"
@@ -106,6 +107,11 @@ object libraries {
 
     object flowRedux {
         const val dsl = "com.freeletics.flowredux:dsl:${versions.flowRedux}"
+    }
+
+    object workflow {
+        const val ui = "com.squareup.workflow:workflow-ui-core-android:${versions.workflow}"
+        const val testing = "com.squareup.workflow:workflow-testing-jvm:${versions.workflow}"
     }
 
     object androidx {

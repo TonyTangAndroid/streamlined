@@ -51,6 +51,8 @@ dependencies {
     // Unit tests
     testImplementation(libraries.junit)
     testImplementation(libraries.truth)
+    testImplementation(libraries.workflow.testing)
+    // TODO check if archCore testing and livedata-test-ext still required
     testImplementation(libraries.androidx.archCore.testing)
     testImplementation(project(":domain-testing"))
     testImplementation(project(":coroutines-test-ext"))

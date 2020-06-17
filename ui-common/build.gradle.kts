@@ -22,6 +22,9 @@ dependencies {
     // FlowRedux
     api(libraries.flowRedux.dsl)
 
+    // Workflow
+    api(libraries.workflow.ui)
+
     // AndroidX
     api(libraries.androidx.annotation)
     api(libraries.androidx.appCompat)
